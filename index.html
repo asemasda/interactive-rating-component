@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="main.css">
+  <title>interactive-rating</title>
+</head>
+<body>
+  <section class="container">
+    <div class="container-comp">
+    <div class="star-icon">
+      <img src="./images/icon-star.svg" alt="star icon">
+    </div>
+    <h2>How did we do?</h2>
+    <p>Please let us know how we did with your support request. All feedback is apprecated
+      to help us imporve our offering!
+    </p>
+    <form>
+      <ul class="rating-numbers">
+        <li class="rating-number">
+          <button id="one" class="rating-btn" type="button">1</button>
+        </li>
+        <li class="rating-number">
+          <button id="two" class="rating-btn" type="button">2</button>
+        </li>
+        <li class="rating-number">
+          <button id="three" class="rating-btn" type="button">3</button>
+        </li>
+        <li class="rating-number">
+          <button id="four" class="rating-btn" type="button">4</button>
+        </li>
+        <li class="rating-number">
+          <button id="five" class="rating-btn" type="button">5</button>
+        </li>
+      </ul>
+      <div class="sumbmit-container">
+        <input id="submit-btn" value="SUBMIT" type="submit">
+      </div>
+    </form>
+  </div>
+  </section>
+  <section id="thankyou">
+    <div class="thankyou-img">
+      <img src="./images/illustration-thank-you.svg" alt="thank you">
+
+    </div>
+    <h4 class="select-rate">You selected <span class="numes"></span>out of 5</h4>
+    <h2 class="thankme-snoopdogg">Thank you!</h2>
+    <p class="p-text">We appreciate you taking the time to give a rating. if you ever need more 
+      support, don't hesitate to get in touch!</p>
+
+
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
